@@ -12,7 +12,9 @@
     </div>
 
     <div>
-        <p>Curso de Flask</p>
+        <p>Bem vindo {{dicionario.usuario}} ao Curso de Flask</p>
+        <p><b>Sua idade é: </b>{{dicionario.idade}}</p>
+        <p><b>Sua altura é: </b>{{dicionario.altura}}</p>
         <a href="{{url_for('nova')}}">Link para nova pag</a>
     </div>
 </body>
