@@ -4,7 +4,7 @@ from flask import render_template, url_for
 def homepage():#renderizar a pag.
     return render_template('index.html')
 
-@app.route('contato') #outra pag'/nova/'
+@app.route('/contato') #outra pag'/nova/'
 def nova():#renderizar a pag.
     return 'outra view'
 
